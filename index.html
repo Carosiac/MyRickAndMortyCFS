@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federant&family=Gamja+Flower&family=IM+Fell+Double+Pica+SC&family=Jim+Nightshade&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-titulo">
+        <p class="titulo">Rick and Morty</p>
+    </div>
+    
+
+    <nav class="menu">
+        <div>
+          <ul>
+            <li id="todos">Todos</li>
+            <li id="mujeres">Mujer</li>
+            <li id="hombres">Hombre</li>
+            <li id="sinGenero">Sin genero</li>
+            <li id="noSeSabe">No se sabe</li>
+          </ul>
+        </div>
+      </nav>
+    <main>
+        <p class="conteo">Total de personajes <span id="total-personajes"></span></p>
+        <div id="root" class="personajes"></div>
+
+      <div class="container-paginador">
+        <p class="pagin-act">Pagina actual: <span id="pagina-actual"></span></p>
+        <p class="total-pag">Total de páginas: <span id="total-paginas"></span></p>
+
+        <div class="pagination">
+          <button id="first-page">Primera</button>
+          <button id="prev-page">-</button>
+          <button id="next-page">+</button>
+          <button id="last-page">Ultima</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Copyright Carolina Siacca</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

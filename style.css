@@ -1,0 +1,179 @@
+body {
+    width: 1240px;
+    background-color: black;
+    border: 5px solid;
+    border-color: rgb(0, 255, 183);
+}
+
+main {
+    background-color: black;
+    color: rgb(19, 227, 161);
+    width: 1240px;
+}
+
+
+.titulo {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 90px;
+    color: rgb(19, 227, 161);
+    text-shadow: 4px 4px 2px rgba(19,201,227,0.6);
+    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.menu {
+    background-color: black;
+    color: rgba(19,201,227,0.6);
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0  auto;
+    font-size: 25px;
+    font-family: 'Federant', serif;
+}
+
+.menu ul li {
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;  
+}
+
+.conteo {
+    font-family: 'Federant', serif;
+    margin: 30px;
+
+}
+img {
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+img:hover {
+    border-radius: 30%;
+}
+
+.personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.card {
+    margin: 30px;
+    width:330px;
+    height: 585px;
+    border-radius: 10px;
+    background-color: #0e0e0e;
+    box-shadow: 10px 9px 27px 3px rgba(75,242,242,0.76);
+    -webkit-box-shadow: 10px 9px 27px 3px rgba(75,242,242,0.76);
+    -moz-box-shadow: 10px 9px 27px 3px rgba(75,242,242,0.76);
+    font-family: 'Federant', serif;
+    font-size: 15px;
+}
+
+.card-content {
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(85, 204, 204, 0.76);
+    font-size: larger;
+    font-weight: 900;
+    
+}
+
+.container-paginador {
+    font-family: 'Federant', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.pagin-act {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Federant', serif;
+    font-size: larger;
+    color: rgb(19, 227, 161);
+   
+}
+.total-pag {
+    margin-bottom: 10px;
+    font-family: 'Federant', serif;
+    font-size: larger;
+    color: rgb(19, 227, 161);
+}
+button {
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgba(19,201,227,0.6);
+    color: rgba(248, 247, 247, 0.973);
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    font-family: 'Federant', serif;
+    color: rgb(19, 227, 161);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 790px;
+    }
+
+    main {
+        width: 790px;
+    }
+
+    .titulo {
+        margin: 18px;
+    }
+
+    .menu {
+        width: 780px;
+        justify-content: flex-start;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 490px;
+    }
+
+    main {
+        width: 490px;
+    }
+
+    .titulo {
+        margin: 18px;
+        font-size: 60px;
+    }
+
+    .menu {
+        width: 480px;
+        font-size: 15px;
+        justify-content: flex-start;
+        margin: 2px;
+    }
+
+    .personajes {
+        flex-direction: column;
+}
