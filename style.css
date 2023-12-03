@@ -51,7 +51,7 @@ img {
     border-radius: 5%;
 }
 img:hover {
-    border-radius: 30%;
+    width: 345px;
 }
 
 .personajes {
@@ -72,6 +72,12 @@ img:hover {
     -moz-box-shadow: 10px 9px 27px 3px rgba(75,242,242,0.76);
     font-family: 'Federant', serif;
     font-size: 15px;
+}
+
+.card:hover {
+    box-shadow: -1px -4px 24px 16px rgba(19,227,161,0.75);
+    -webkit-box-shadow: -1px -4px 24px 16px rgba(19,227,161,0.75);
+    -moz-box-shadow: -1px -4px 24px 16px rgba(19,227,161,0.75);
 }
 
 .card-content {
